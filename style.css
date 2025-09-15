@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+    font-family: Helvetica, "Helvetica Neue", Helvetica, sans-serif;
+}
+header {
+    background: linear-gradient(to bottom, #3CD680, #1A5C38);
+}
+header > h1 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400, bold;
+}
+header > p {
+    color: white;
+    text-align: center;
+}
+header > nav {
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+header > nav > a{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    text-align: left;
+}
+header > nav > a:hover {
+    color: #adeec9;
+}
+.sec1 {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    width: 57%;
+}
+.sec1 > h1 {
+    margin-top: 0px;
+    font-family:'Audiowide', sans-serif;
+    color: #1A5C38;
+}
+.sec1 > p {
+    text-indent: 30px;
+}
+.sec1 > p > a {
+    color: #1A5C38;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sec1 > p > a:hover {
+    color: #adeec9;
+}
+.sec1 > p > span {
+    color: #1A5C38;
+    font-weight: bold;
+}
+.p2 > a {
+    text-decoration: none;
+}
+.p2 > span {
+    color: #1A5C38;
+    font-weight: bold;
+}
+.h2sec1 {
+    font-family: 'Audiowide', sans-serif;
+    color: #1A5C38;
+    background: linear-gradient(to right, #adeec9, white);
+}
+ul {
+    list-style: "✓";
+    columns: 2;
+}
+li > span {
+    text-decoration: underline;
+}
+img {
+    width: 100%;
+}
+.img3 {
+    width: 60%;
+}
+iframe {
+    background-color: #1A5C38;
+    padding: 20px;
+    width: 57%;
+    margin-left: 20%;
+    margin-right: 20%; 
+    margin-bottom: 0px;  
+}
+.sec2 {
+    background-color: white;
+    margin: -10px 20% 20px 20%;
+    padding: 20px;
+    border-bottom: 5px;
+    border-radius: 0px 0px 10px 10px;
+    width: 57%;
+}
+.sec2 > div {
+    background-color: #adeec9;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+}
+.sec2 > .h2sec2 {
+    background-color: #1A5C38;
+    border-radius: 10px 10px 0px 0px;
+    color:white;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.sec2 > div > p {
+    text-indent: 30px;
+}
+.sec2 > div > p > a {
+    color: #1A5C38;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sec2 > div > p > a:hover {
+    color: white;
+}
+footer {
+    padding: 2px;
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+}
